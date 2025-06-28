@@ -26,7 +26,7 @@
                    sum += (Math.pow(-1, i) * Math.pow(x, 2*i+1)) / (2*i+1);
                }
 %>
-    <p>Сумма ряда: <strong><%= sum %></strong></p>
+    <p>Сумма ряда: <%= sum %></p>
 <%
     } else {
 %>
